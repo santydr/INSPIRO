@@ -1,7 +1,10 @@
 # Ejercicio 1: Hola mundo!
 El primer objetivo de esta práctica es la configuración del IDE de Arduino para su correcto funcionamiento con el dispositivo [T-embed](https://lilygo.cc/products/t-embed) y la impresión del mensaje *"HOLA MUNDO"* en la consola del mismo.
+
 El primer paso es la descarga e instalación del **IDE Arduino 2.x**, esto puede realizarse desde el siguiente [enlace](https://www.arduino.cc/en/software/).
+
 Una vez instalado el IDE, es necesario configurarlo para su funcionamiento con el microcontrolador ESP32 del T-embed.
+
 En primer lugar debe seleccionarse el $${\color{red}gestor\space de\space placas\space (Board\space manager)}$$, una vez seleccionado se escribe *"ESP"* en el $${\color{blue}cuadro\space de\space texto}$$ y se pulsa el botón de $${\color{orange}instalación\space (INSTALL)}$$.
 > Observe que es posible elegir distintas versiones de una misma placa. En la imagen inferior puede verse que se va a proceder a la instalación de la versión 3.3.0.
 
