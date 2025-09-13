@@ -1,5 +1,6 @@
 # Ejercicio 2: Uso de los LEDs integrados
 Esta practica tiene como objetivo que el usuario se familiarice con el uso de los leds integrados en el dispositivo.
+
 El dispositivo incluye 7 diodos LEDs RGB configurables mediante [SPI](https://www.digikey.es/es/articles/why-how-to-use-serial-peripheral-interface-simplify-connections-between-multiple-devices) a traves del controlador [APA102](https://cdn-learn.adafruit.com/assets/assets/000/084/591/original/APA102_LED.pdf?1574117503).
 Para simplificar el uso y configuración de estos LEDs, se va a hacer uso de la librería APA102. Para instalar dicha librería debe hacer click sobre el $${\color{red}gestor\space de\space librerias\space (Library\space manager)}$$, una vez seleccionado se escribe *"APA102"* en el $${\color{blue}cuadro\space de\space texto}$$ se selecciona la librería **APA102 by Pololu** y se pulsa el botón de $${\color{orange}instalación\space (INSTALL)}$$.
 > Observe que existe más de una librería por lo que en habría que estudiar cuáles de ellas son compatibles con su dispositivo y/o se adecúa mejor a sus necesidades.
@@ -13,7 +14,9 @@ En este caso, puede comprobar que son los pines 45 y 42 para las señales CLK y 
 
 Una vez creado dicho objeto, es necesario indicar el número de LEDs a controlar y el color que se asociará a cada uno de ellos.
 Antes de seguir, debe saber que este dispositivo cuenta con un pin que controla la alimentación de los LEDs y la pantalla. Este pin llamado *POWER ON* se encuentra conectado al pin 46 y debe ponerse a **1** para poder hacer uso de los LEDs o la pantalla. Esto se hace como medida de ahorro. Ambos dispositivos pueden consumir potencialmente mucha energía y no siempre son necesarios.
+
 En la función **setup** únicamente es necesario habilitar los LEDs. Para ello se configura el pin 46 como una salida digital (tomará el valor 0 o 1) y se le fuerza un valor alto (1).
+
 La funcion **loop** simplemente se encarga de asignar un color a cada LED y posteriormente enviar esta información a los mismos.
 Observe el comportamiento del programa, familiricese con la interfaz y a continuación pruebe a realizar los ejercicios propuestos.
 ## Ejercicios propuestos
