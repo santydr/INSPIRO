@@ -4,7 +4,7 @@ El dispositivo incluye 7 diodos LEDs RGB configurables mediante [SPI](https://ww
 Para simplificar el uso y configuración de estos LEDs, se va a hacer uso de la librería APA102. Para instalar dicha librería debe hacer click sobre el $${\color{red}gestor\space de\space librerias\space (Library\space manager)}$$, una vez seleccionado se escribe *"APA102"* en el $${\color{blue}cuadro\space de\space texto}$$ se selecciona la librería **APA102 by Pololu** y se pulsa el botón de $${\color{orange}instalación\space (INSTALL)}$$.
 > Observe que existe más de una librería por lo que en habría que estudiar cuáles de ellas son compatibles con su dispositivo y/o se adecúa mejor a sus necesidades.
 
-![Library install](Ej1_img1.png)
+![Library install](Ej2_img1.png)
 
 Una vez realizada la instalación de la librería el primer paso es importarla para poder hacer uso de ella en su programa. Posteriormente se debe crear un objeto de tipo APA102 que será el encargado de gestionar la funcionalidad de los LEDs. Para ello, necesita que se le indiquen a qué pines están conectados los LEDs. Puede consultar dicha información en la [web del fabricante del dispositivo](https://lilygo.cc/products/t-embed).
 ![Pines T-embed](https://github.com/Xinyuan-LilyGO/T-Embed/raw/main/image/T-Embed1.png)
