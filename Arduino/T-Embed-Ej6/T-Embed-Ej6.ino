@@ -108,13 +108,13 @@ void actualizaPantalla(){
   tft.fillScreen(TFT_BLACK);                    // Se pone la pantalla completamente negra.
   tft.setTextColor(TFT_RED,TFT_BLACK);          // Se establece el color de la letra en rojo con fondo negro.
   tft.setCursor(35, 4);                         // Se establece el cursor en la posición x=35, y=4.
-  tft.printf("Rojo: %d", colorRGB[0]);          // Se escribe "Hola mundo!" en la pantalla.
+  tft.printf("Rojo: %d", colorRGB[0]);          // Se escribe "Rojo: **" en la pantalla.
   tft.setCursor(35, 60);                        // Se establece el cursor en la posición x=35, y=60.
   tft.setTextColor(TFT_GREEN,TFT_BLACK);        // Se establece el color de la letra en verde con fondo negro.
-  tft.printf("Verde: %d", colorRGB[1]);         // Se escribe "Hola mundo!" en la pantalla.
+  tft.printf("Verde: %d", colorRGB[1]);         // Se escribe "Verde: **" en la pantalla.
   tft.setCursor(35, 116);                       // Se establece el cursor en la posición x=35, y=116.
   tft.setTextColor(TFT_BLUE,TFT_BLACK);         // Se establece el color de la letra en azul con fondo negro.
-  tft.printf("Azul: %d", colorRGB[2]);          // Se escribe "Hola mundo!" en la pantalla.
+  tft.printf("Azul: %d", colorRGB[2]);          // Se escribe "Azul: **" en la pantalla.
   if (modifica)                                 // Si se está modificando un valor se dibuja un triángulo, en caso contrario un círculo.
     tft.fillTriangle(27,2*(colorSel+1) + (52*colorSel)+26, 7, 2*(colorSel+1) + (52*colorSel)+16, 7, 2*(colorSel+1) + (52*colorSel)+36,TFT_YELLOW);
   else
