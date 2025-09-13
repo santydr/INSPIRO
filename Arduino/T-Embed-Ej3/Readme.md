@@ -1,4 +1,4 @@
-# Ejercicio 2: Uso de los LEDs integrados
+# Ejercicio 3: Uso del botón
 Esta practica tiene como objetivo que el usuario se familiarice con el uso del botón como sistema de entrada de información.
 El uso de un botón físico como sistema de entrada puede parecer a priori muy sencillo. Este plantemiento puede ser un error ya que a menudo se olvidan o ignoran las posibles complicaciones asociadas al uso de un dispotivo tan "simple". Entre ellos se encuentran: rebotes, manejo de tiempos de presión, etc. Para simplificar el proceso de uso del mismo, se hará uso de la popular librería OneButton. Para instalar la libraría anteriormente mecionada debe seguir los mismos pasos que en el ejercicio anterior, sólo que esta vez debe escribir OneButton en el campo de búsqueda.
 Una vez instalada e importada la librería (como en el ejercicio anterior), es necesario crear un objeto de tipo OneButton. De nuevo para hacer esto, es necesario indicar el pin al que está conectado el botón (consultar fabricante).
@@ -19,3 +19,4 @@ En la función **loop** únicamente es necesario comprobar periódicamente el es
 - Modifique el código para que un click cambie el color de los LEDS.
 ## Ejercicios de profundización
 - Modifique el apartado anterior para que un click largo modifique los colores de los LEDs según el tiempo de pulsación.
+- Intente obtener el estado del botón sin hacer uso de la libreria. Una vez realizado este apartado, intente repetir todos los ejericios sin hacer uso de la librería.
