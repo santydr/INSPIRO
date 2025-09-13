@@ -25,8 +25,8 @@
 TFT_eSPI tft = TFT_eSPI(170, 320);    // Se crea una variable tft que es un objeto de tipo TFT_eSPI de tamaño 170 x 320 pixeles.
 ESP32Time rtc;                        // Se crea el objeto reloj de tiempo real (RTC Real Time CLock);
 
-const char* ssid= "Nala";
-const char* password= "NocheGordito1";
+const char* ssid= "AQUÍ EL NOMBRE DE TU RED";
+const char* password= "AQUÍ LA CONTRASEÑA DE TU RED";
 
 const char* ntpServer= "pool.ntp.org";
 const long gmtOffset_sec = 1*3600;
