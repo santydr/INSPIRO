@@ -1,5 +1,6 @@
 # Ejercicio 4: Rotary encoder
 Esta practica tiene como objetivo que el usuario se familiarice con el uso del [rotary encoder](https://www.ia.omron.com/support/guide/34/introduction.html) como sistema de entrada de información.
+
 El encoder es un dispositivo que permite convertir el movimiento mecánico (normalmente rotatorio) en un valor digital. Existen versiones absolutas y relativas. Las primeras permiten saber exactamente la posición del encoder en todo momento. Las segundas permiten conocer únicamente el sentido del movimiento por lo que es necesario que se lleve la cuenta de la posición de otro modo. Debido a su menor coste y tamaño, los más utilizados en el mundo DIY son los encoder incrementales.
 
 En este caso, el dispositivo incluye un rotary encoder incremental sin botón integrado. De nuevo se hará uso de una librería, en esta ocasión la elegida es [RotaryEncoder](https://github.com/mathertel/RotaryEncoder). Tal y como se ha venido haciendo, es necesario proporcionar los pines del encoder al crear el objeto. Además, es necesario incluir el modo de operación (este modo dependerá del encoder y el conexionado elegido). 
