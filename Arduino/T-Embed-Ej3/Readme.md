@@ -16,7 +16,7 @@ En la función **loop** únicamente es necesario comprobar periódicamente el es
 - Modifique incremente el valor de espera (delay) en **loop** y observe como se comporta el dispositivo.
 - Integre los LEDs vistos en el ejercicio anterior para que al pulsar el botón se enciendan o apaguen (alternativamente).
 - Modifique el apartado anterior para que un click encienda los LEDs y doble click los apague.
-- Modifique el código para que un click cambie el color de los LEDS.
+- Modifique el código para que un click cambie el color de los LEDs.
 ## Ejercicios de profundización
 - Modifique el apartado anterior para que un click largo modifique los colores de los LEDs según el tiempo de pulsación.
 - Intente obtener el estado del botón sin hacer uso de la libreria. Una vez realizado este apartado, intente repetir todos los ejericios sin hacer uso de la librería.
