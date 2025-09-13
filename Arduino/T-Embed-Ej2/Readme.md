@@ -24,3 +24,4 @@ Observe el comportamiento del programa, familiricese con la interfaz y a continu
 - Modifique o elimine el tiempo de espera (delay) y observe el comportamiento del dispositivo.
 # Ejercicios de profundización
 - Abra el [enlace porporcionado](https://cdn-learn.adafruit.com/assets/assets/000/084/591/original/APA102_LED.pdf?1574117503) y estudie el comportamiento del controlador APA102. ¿Sería posible controlar más LEDs?, ¿Existe algún límite a la cantidad?Si existe, ¿qué factores lo limitan?
+- Consulte la [guía de referencia de la librería APA102](https://github.com/pololu/apa102-arduino), investigue las posibilidades que ofrece e intente nuevos retos.
