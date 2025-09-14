@@ -1,5 +1,5 @@
 # Ejercicio 3: Uso del botón
-Esta practica tiene como objetivo que el alumno se familiarice con el uso del botón como sistema de entrada de información.
+Esta práctica tiene como objetivo que el alumno se familiarice con el uso del botón como sistema de entrada de información.
 
 El uso de un botón físico como sistema de entrada puede parecer a priori muy sencillo. Este plantemiento puede ser un error ya que a menudo se olvidan o ignoran las posibles complicaciones asociadas al uso de un dispotivo tan "simple". Entre ellos se encuentran: rebotes, manejo de tiempos de presión, etc. Para simplificar el proceso de uso del mismo, se hará uso de la popular librería OneButton. Para instalar la libraría anteriormente mecionada debe seguir los mismos pasos que en el ejercicio anterior, sólo que esta vez debe escribir OneButton en el campo de búsqueda.
 
