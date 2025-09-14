@@ -4,7 +4,7 @@ El dispositivo [T-embed](https://lilygo.cc/products/t-embed) es también compati
 ## Instalación
 En primer lugar se debe acceder al apartado de descargas del dispositivo T-embed en la web oficial de CircuitPython en el siguiente [enlace](https://circuitpython.org/board/lilygo_tembed_esp32s3/). 
 
->La web de CircuitPython nos permite hacer la configuración inicial y la programación del dispositivo directamente desde nuestro navegador, pero es importante que el navegador que se use para acceder esté basado en Chromium. Por ejemplo, **Microsoft Edge**, **Google Chrome**, **Opera** o **Brave** son compatibles, mientras que **Mozilla Firefox no está soportado**. Si estás en un sistema Windows ya tendrás instalado el navegador Edge. Si usas un sistema Linux puedes instalar un navegador compatible o bien usar el método alternativo al final de esta guía.
+>La web de CircuitPython nos permite hacer la configuración inicial y la programación del dispositivo directamente desde nuestro navegador, pero es importante que el navegador que se use para acceder esté basado en Chromium. Por ejemplo, **Microsoft Edge**, **Google Chrome**, **Opera** o **Brave** son compatibles, mientras que **Mozilla Firefox no está soportado**. Si estás en un sistema Windows ya tendrás instalado el navegador Edge.
 
 Se usará el instalador guiado. Para ello, hay que hacer click en el botón *OPEN INSTALLER* situado a la derecha. Esta guía se ha hecho con la versión **CircuitPython 9.2.9**. Se abrirá una ventana y realizaremos los siguientes pasos:
 1. Seleccionar *Install CircuitPython 9.2.9 Bin Only* y después hacer click en el botón *Next*.
@@ -44,8 +44,6 @@ En la izquierda, pulsando el botón *Open* se puede acceder al archivo *code.py*
 ![Conexión dispositivo modo bootloader](imágenes/CP-Ej1_02.png)
 
 >Por defecto, en CircuitPython el archivo de código con nombre *code.py* se ejecutará nada más encenderse el dispositivo de manera automática.
-
----
 
 ## Ejercicios propuestos
 - Modifique el programa para que en lugar de esperar 1 segundo antes de imprimir el mensaje espere 5 segundos.
