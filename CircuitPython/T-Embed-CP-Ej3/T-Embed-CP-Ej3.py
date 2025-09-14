@@ -1,49 +1,26 @@
-# SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
+#############################################################################################################
+#                                                                                                           #
+# Título: CircuitPython_Ejemplo_3 - Uso básico de la pantalla.                                              #
+# Autor: Juan M. Montes Sánchez.                                                                            #
+# Objetivo: Aprender a representar objetos en la pantalla de T-Embed.                                       #
+#                                                                                                           # 
+#############################################################################################################
 
-# SPDX-License-Identifier: MIT
-
-
-"""
-
-This test will initialize the display using displayio and draw a solid green
-
-background, a smaller purple rectangle, and some yellow text.
-
-"""
-
-import board
-
-import busio
-
-import displayio
-
-import digitalio
-
-import rotaryio
-
-import time
-
-import terminalio
-
-from adafruit_display_text import label
-
+# --------------------
+# Importamos las librerías necesarias
+# --------------------
+import time                             # Necesaria para hacer esperas
+import board                            # Incluye elementos de la placa
+import busio                            # Control de buses
+import displayio                        # Necesaria para hacer esperas
 from fourwire import FourWire
+from adafruit_st7789 import ST7789      # Necesario instalar
+import terminalio
+from adafruit_display_text import label # Necesario instalar
 
-from adafruit_st7789 import ST7789
 
-
-# Release any resources currently in use for the displays
-
+# Primero hay que liberar la pantalla de cualquier otro uso
 displayio.release_displays()
-
-# Configuramos botón como entrada
-button = digitalio.DigitalInOut(board.IO0)
-
-# Configuramos encoder con la librería rotaryio
-encoder = rotaryio.IncrementalEncoder(board.IO2, board.IO1, divisor=2)
-last_position = encoder.position # Esta variable global guardará la última posición del encoder
-
-
 
 # Configuración de pines de la pantalla. Asignamos a cada señal su pin correspondiente.
 tft_clk = board.IO12
@@ -55,6 +32,8 @@ tft_bl = board.IO15
 
 # Se inicia el bus SPI que usaremos para controlar la pantalla.
 spi=busio.SPI(clock=tft_clk, MOSI=tft_mosi, MISO=None, half_duplex = False )
+
+# Se configura el bus SPI en modo cuatro hilos.
 display_bus = FourWire(spi, command=tft_dc, chip_select=tft_cs, reset=tft_rst)
 
 # Configuración del display con la librería ST7789. Ancho, alto, rotación...
@@ -77,14 +56,12 @@ display = ST7789(
 )
 
 
-# Valor inicial de brillo de la pantalla al 50%
+# Ponemos un valor de brillo de pantalla del 50%
 Brightvalue = 0.5
 display.brightness = Brightvalue
 
-# Make the display context
-
+# Representamos el display
 splash = displayio.Group()
-
 display.root_group = splash
 
 # --------------------
@@ -132,35 +109,6 @@ splash.append(text_group)
 # --------------------
 
 
-# Load an image
-
-# odb = displayio.OnDiskBitmap('/buddies.bmp')
-# pic = displayio.TileGrid(odb, pixel_shader=odb.pixel_shader)
-# splash.append(pic)
-
-colorchanger=0
-
-while True:
-        
-    # Button handling
-    if not button.value:
-        print("Button pressed!")
-    current_position = encoder.position
-    position_change = current_position - last_position
-    if position_change > 0:
-        if Brightvalue < 0.9:
-            Brightvalue += 0.1
-            display.brightness = Brightvalue
-            print(f"Brightness increased to {Brightvalue:.1f}")
-        else:
-            print("Brightness is already at maximum")
-    elif position_change < 0:
-        if Brightvalue > 0.1:
-            Brightvalue -= 0.1
-            display.brightness = Brightvalue
-            print(f"Brightness decreased to {Brightvalue:.1f}")
-        else:
-            print("Brightness is already at minimum")
-    last_position = current_position
-    time.sleep(0.1)
+while True:             # Bucle infinito
+    time.sleep(1)       # Espera de un segundo
     pass
