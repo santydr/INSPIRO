@@ -1,5 +1,5 @@
 # Ejercicio 5: Pantalla LCD
-Esta practica tiene como objetivo que el alumno se familiarice con el uso de la pantalla TFT como dispositivo de salida de información.
+Esta práctica tiene como objetivo que el alumno se familiarice con el uso de la pantalla TFT como dispositivo de salida de información.
 
 El dispositivo integra un pantalla TFT de 170x320 píxeles que hace uso de un controlador [ST7789](https://www.waveshare.com/w/upload/a/ae/ST7789_Datasheet.pdf). El uso de las pantallas es similar al visto en las prácticas de la asignatura. Es decir se hace uso de una matriz de colores qn que cada uno corresponde a un color. Esta forma de trabajar, una vez llevada a su implementación hardware es compleja por lo que se va a hacer uso de una librería para poder abstraerse de todo ese funcionamiento. La librería elegida es [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI). Esta librería tiene un rendimiento excepcionalmente bueno comparado con otras librerías. Además, posee una compatibilidad con un amplio abanico de pantallas. Como elemento negativo, requiere una configuración medianamente compleja antes de poder ser utilizado.
 > Para evitar añadir complejidad se ha incluido la librería correctamente configurada para su uso. El proceso de instalación en este caso es ligeramente dirente:
