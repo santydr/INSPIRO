@@ -1,5 +1,5 @@
 # Ejercicio 6: Integrando lo aprendido
-Esta practica tiene como objetivo que el alumno vea cómo se integra todo lo aprendido hasta ahora en usa sola aplicación.
+Esta práctica tiene como objetivo que el alumno vea cómo se integra todo lo aprendido hasta ahora en usa sola aplicación.
 
 El alumno debe estudiar detenidamente el código proporcionado y analizar su funcionamiento con el objetivo de poder resolver los ejericios propuestos.
 ## Ejercicios propuestos
