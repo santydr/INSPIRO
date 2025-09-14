@@ -1,5 +1,5 @@
 # Ejercicio 2: Uso de los LEDs integrados
-Esta practica tiene como objetivo que el usuario se familiarice con el uso de los leds integrados en el dispositivo.
+Esta practica tiene como objetivo que el alumno se familiarice con el uso de los leds integrados en el dispositivo.
 
 El dispositivo incluye 7 diodos LEDs RGB configurables mediante [SPI](https://www.digikey.es/es/articles/why-how-to-use-serial-peripheral-interface-simplify-connections-between-multiple-devices) a traves del controlador [APA102](https://cdn-learn.adafruit.com/assets/assets/000/084/591/original/APA102_LED.pdf?1574117503).
 Para simplificar el uso y configuración de estos LEDs, se va a hacer uso de la librería APA102. Para instalar dicha librería debe hacer click sobre el $${\color{red}gestor\space de\space librerias\space (Library\space manager)}$$, una vez seleccionado se escribe *"APA102"* en el $${\color{blue}cuadro\space de\space texto}$$ se selecciona la librería **APA102 by Pololu** y se pulsa el botón de $${\color{orange}instalación\space (INSTALL)}$$.
