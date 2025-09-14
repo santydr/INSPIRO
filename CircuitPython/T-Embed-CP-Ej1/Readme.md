@@ -16,7 +16,7 @@ Se usará el instalador guiado. Para ello, hay que hacer click en el botón *OPE
 	4. Ya estaría en modo bootloader (mediante serial COM).
 4. Hacer click en el botón *Connect*. Aparecerá una ventana del navegador y debe aparecer en el listado un dispositivo COM virtual de nombre *USB Jtag/serial debug unit*.
 
-![Conexión dispositivo modo bootloader](imágenes\CP-Ej1_01.jpg)
+![Conexión dispositivo modo bootloader](imágenes/CP-Ej1_01.jpg)
 
 5. La herramienta pregunta si es necesario hacer un borrado previo. Seleccionar *Continue* para aceptar el borrado.
 6. Esperar a que el proceso de borrado e instalación termine. Si todo ha ido bien, aparecerá un mensaje de *Successfully Completed*.
@@ -41,7 +41,7 @@ La interfaz del editor web está dividida en dos: a la izquierda tendremos el ed
 
 En la izquierda, pulsando el botón *Open* se puede acceder al archivo *code.py*. Modifícalo con el código de ejemplo de este ejercicio (T-Embed-CP-Ej1.py) y ejecútalo con el botón *Save+Run*.
 
-![Conexión dispositivo modo bootloader](imágenes\CP-Ej1_02.png)
+![Conexión dispositivo modo bootloader](imágenes/CP-Ej1_02.png)
 
 >Por defecto, en CircuitPython el archivo de código con nombre *code.py* se ejecutará nada más encenderse el dispositivo de manera automática.
 
