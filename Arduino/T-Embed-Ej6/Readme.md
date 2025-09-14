@@ -4,7 +4,7 @@ Esta practica tiene como objetivo que el alumno vea cómo se integra todo lo apr
 El alumno debe estudiar detenidamente el código proporcionado y analizar su funcionamiento con el objetivo de poder resolver los ejericios propuestos.
 ## Ejercicios propuestos
 - Modifique el ejercicio para que se cambie el color de un único LED.
-- Modifiqque el ejercicio anterior para que el usuario pueda elegir qué LED modificar.
+- Modifique el ejercicio anterior para que el usuario pueda elegir qué LED modificar.
 - Modifique el ejercicio inicial para que el fondo de la pantalla también cambie de color a la vez que los LEDs.
 ## Ejercicios de profundización
 - Modifique el ejercicio anterior para color del fondo de pantalla cambie conforme se varía los valores RGB pero el color de los LEDS no lo haga hasta que se modifique el último color.
