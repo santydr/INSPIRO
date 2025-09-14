@@ -40,5 +40,6 @@ El código de ejemplo de este ejercicio ([T-Embed-CP-Ej3.py](T-Embed-CP-Ej3.py))
 - Haz modificaciones para cambiar el tamaño, color y posición de los elementos. ¿Qué pasa si los representas en orden distinto?
 - Cambia el valor de brillo de la pantalla.
 
-## Ejercicio de ampliación
+## Ejercicios de profundización
 - Modifica el programa para que, en lugar del texto, aparezca en la pantalla un contador que se vaya incrementando cada segundo.
+- Haz que el color del rectángulo del fondo cambie aleatoriamente cada 5 segundos.
