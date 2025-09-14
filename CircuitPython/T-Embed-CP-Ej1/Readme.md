@@ -1,4 +1,4 @@
-# Ejercicio 1: Hola mundo!
+# Ejercicio 1: ¡Hola mundo!
 El dispositivo [T-embed](https://lilygo.cc/products/t-embed) es también compatible con el entorno [CircuitPython](https://learn.adafruit.com/welcome-to-circuitpython). En este ejercicio se realizan los pasos necesarios para instalar el entorno y luego ejecutar código de ejemplo **CircuitPython** en el dispositivo T-embed.
 
 ## Instalación
@@ -39,7 +39,7 @@ La interfaz del editor web está dividida en dos: a la izquierda tendremos el ed
 
 >Prueba a hacer operaciones matemáticas sencillas escribiendo en la consola, en la derecha. Al pulsar Enter se enviará y ejecutará el código. Algunos ejemplos: Sumas (2+2), restas (2-1), multiplicaciones (2\*2) o divisiones (10/2). El resultado lo calculará el dispositivo T-Embed y lo mostrará en su pantalla y en la consola al mismo tiempo.
 
-En la izquierda, pulsando el botón *Open* se puede acceder al archivo *code.py*. Modifícalo con el código de ejemplo de este ejercicio (T-Embed-CP-Ej1.py) y ejecútalo con el botón *Save+Run*.
+En la izquierda, pulsando el botón *Open* se puede acceder al archivo *code.py*. Modifícalo con el código de ejemplo de este ejercicio ([T-Embed-CP-Ej1.py](T-Embed-CP-Ej1.py)) y ejecútalo con el botón *Save+Run*.
 
 ![Conexión dispositivo modo bootloader](imágenes/CP-Ej1_02.png)
 
