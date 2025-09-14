@@ -13,11 +13,11 @@ import time                             # Necesaria para hacer esperas
 import board                            # Incluye elementos de la placa
 import busio                            # Control de buses
 import displayio                        # Necesaria para hacer esperas
-from fourwire import FourWire
-from adafruit_st7789 import ST7789      # Necesario instalar
-import terminalio
-from adafruit_display_text import label # Necesario instalar
-
+from fourwire import FourWire           # Para manejo de un bus SPI cuatro hilos
+from adafruit_st7789 import ST7789      # Manejo de pantalla ST7789. Necesario instalar.
+import terminalio                       # Representar texto.
+from adafruit_display_text import label # Representar texto. Necesario instalar.
+# --------------------
 
 # Primero hay que liberar la pantalla de cualquier otro uso
 displayio.release_displays()
